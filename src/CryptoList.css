@@ -1,0 +1,48 @@
+.CryptoList {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+ul.CryptoListUl {
+    margin: 0;
+}
+
+li.CryptoListLi {
+    list-style: none;
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    line-height: 2;
+    padding: 5px 20px;
+    background: white;
+}
+
+.CryptoLabel {
+    font-weight: bold;
+}
+
+/* .CryptoSymbol {
+
+} */
+
+.CryptoCurrency {
+    font-weight: bold;
+}
+
+.CurrencySymbol {
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+    
+  

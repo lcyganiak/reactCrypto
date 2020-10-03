@@ -1,0 +1,6 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+Header set Access-Control-Allow-Origin "*"
+RewriteCond %{HTTP_HOST} ^developer-lc.pl[nc]
+RewriteRule ^(.*)$ http://www.developer-lc.pl/$1 [r=301,nc]

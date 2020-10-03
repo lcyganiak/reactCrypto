@@ -1,0 +1,10 @@
+.Crypto {
+    margin: 20px;
+}
+
+input#filter {
+    line-height: 2;
+    font-size: 18px;
+    height: auto;
+    padding-left: 20px;
+}
